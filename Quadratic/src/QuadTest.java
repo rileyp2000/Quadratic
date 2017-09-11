@@ -16,7 +16,9 @@ public class QuadTest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Quad quad1 = new Quad(1,2,1);
+		quad1.discriminant();
+		
 
 	}
 
