@@ -42,7 +42,7 @@ public class Quad {
 		if(a == 0)
 			throw new IllegalArgumentException("a == 0!");
 		if(discriminant() < 0)
-			return sols;
+			return null;
 		if(discriminant() >=0){
 			sols = new double[] {1,1};
 			return sols;
